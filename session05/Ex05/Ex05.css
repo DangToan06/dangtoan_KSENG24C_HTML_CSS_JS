@@ -1,0 +1,13 @@
+h1{
+    color: rgb(60, 160, 248);
+}
+
+body{
+    font-family: sans-serif;
+}
+
+section{
+    background-color: rgb(252, 248, 220);
+    padding: 10px;
+    border-left: 5px solid rgb(232, 232, 0);
+}

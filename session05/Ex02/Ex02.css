@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+section{
+    color: rgb(0, 255, 21);
+    text-decoration: underline dotted;
+}

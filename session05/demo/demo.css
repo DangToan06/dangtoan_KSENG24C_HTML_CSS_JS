@@ -1,0 +1,60 @@
+/*Cascading trong CSS*/
+ul{
+   background-color: blanchedalmond; 
+}
+
+ul{
+    /* Ghi đè lại thuộc tính*/
+    background-color: chartreuse;
+}
+
+h1{
+    background-color: burlywood;
+}
+
+div{
+    background-color: blue;
+}
+
+h1{
+    background-color: cornflowerblue !important;
+}
+
+li{
+    background-color: aqua;
+}
+
+#second-li{
+    color: pink;
+    background-color: black;
+}
+
+.demo-class{
+    color: black;
+    background-color: pink;
+}
+
+/* Bộ thuộc tính CSS dugf để tạo kiểu chữ
+font-size: 13px;
+font-weight: bold;
+text-align:center;
+text-decoration: underline; */
+
+.text-tranform{
+    font-size: 13px;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: underline;
+}
+
+.fist-content p {
+    background-color: coral;
+}
+
+#second-content{
+    background-color: blueviolet;
+}
+
+.second-content{
+    background-color: deeppink;
+}

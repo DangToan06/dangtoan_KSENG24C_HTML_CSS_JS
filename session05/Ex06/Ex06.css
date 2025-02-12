@@ -1,4 +1,15 @@
+* {
+    font-family: "Kumar One", serif;
+    font-size: 14px;
+    
+}
+
 code{
+    color: red;
+}
+
+span{
+    background-color: rgb(233, 231, 231);
     color: red;
 }
 
@@ -22,7 +33,7 @@ div{
 button{
     padding: 5px;
     border-radius: 5px;
-    border-color: green;
     background-color: green;
     color: white;
+    border: green;
 }

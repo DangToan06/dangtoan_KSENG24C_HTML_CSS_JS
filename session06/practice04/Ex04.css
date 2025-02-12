@@ -1,0 +1,63 @@
+header{
+    background-color: #4caf50;
+    padding: 10px;
+}
+
+header h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+header div{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.link-home{
+    margin-right: 10px;
+}
+
+.link-about{
+    margin-left: 10px;
+}
+
+.box-1{
+    margin-top: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+h3, p{
+    margin-left: 10px;
+}
+
+tr:nth-child(1) td:nth-child(1){
+    border: 1px solid #d2d2d2;
+    background-color: #f9f9f9;
+    text-align: left;
+    vertical-align: top;
+}
+
+tr:nth-child(1) td:nth-child(1) h3{
+    margin-top: 1px;
+}
+
+.photo{
+    margin-left: 10px;
+    width: 180px;
+    height: 100px;
+}
+
+.box-2{
+    background-color: #333333;
+    color: #ddd0c1;
+    padding: 5px;
+    text-align: center;
+}
+
+a:hover{
+    font-size: 15px;
+    color: red;
+}

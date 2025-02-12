@@ -1,0 +1,39 @@
+*{
+    text-align: center;
+}
+
+header{
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.cicrle-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0073ff;
+}
+
+section{
+    margin-top: 15px;
+}
+
+table{
+    margin: auto;
+}
+
+article{
+    margin-top: 30px;
+    background-color: #f1f1f1;
+    padding: 5px;
+}
+
+.text-2{
+    margin-left: 10px;
+}
+
+.text-1{
+    word-spacing: 10px;
+}

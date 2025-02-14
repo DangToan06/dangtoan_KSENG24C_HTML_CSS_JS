@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 350px;
+    height: 590px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    box-sizing: border-box;
+    background-clip: padding-box;
+}
+
+header{
+    background-color: #ed1a35;
+    text-align: center;
+}
+
+header p{
+    position: relative;
+    top: 40px;
+    color: #ffffff;
+}
+
+header .icon-hot{
+    position: relative;
+    left: 160px;
+    bottom: 50px;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+section p{
+    padding-top: 10px;
+    color: #696969;
+}
+
+span{
+    color: #ff8c00;
+}
+
+hr{
+    position: relative;
+    top: 5px;
+}
+
+button{
+    border-radius: 30px;
+}
+
+.button-1{
+    position: relative;
+    top: 15px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #e41a34;
+    color: #ffffff;
+    border: none;
+}
+
+.button-2{
+    position: relative;
+    top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #ed1a35;
+}
+
+.button-1 span{
+    color: #ffffff;
+    font-size: large;
+}
+
+.button-2 span{
+    color: #ed1a35;
+    font-size: larger;
+}

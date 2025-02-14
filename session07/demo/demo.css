@@ -1,0 +1,64 @@
+*{
+    font-size: 16px;
+    color: rgb(35,35,35);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box-model{
+    /* tinh chỉnh content */
+    width: 150px;
+    height: 150px;
+    /* tinh chỉnh khoảng cách từ nội dung đến viền */
+    /* hậu tố: tap/botton/left/right */
+    padding: 20px;
+    padding-top: 40px;
+    padding-left: 60px;
+    /*tinh chỉnh viền*/
+    border: 5px solid black;
+    border-bottom: 15px solid black;
+    /*Tinh chỉnh khoảng cách từ viến đến phần tử HTML nằm ngoài */
+    margin: 40px;
+    margin-right: 80px;
+    background-color: pink;
+    box-sizing: border-box;
+}
+
+.relative,
+.absolute{
+    margin-top: 150px;
+}
+
+h3{
+    margin-bottom: 70px;
+}
+
+.relative span{
+    padding: 50px;
+    border: 10px solid black;
+    margin-right: 10px;
+    background-color: pink;
+}
+
+.absolute span{
+    padding: 50px;
+    border: 10px solid black;
+    margin-right: 10px;
+    background-color: pink;
+}
+
+.position-relative{
+    position: relative;
+    /* top, buttom, left, right  */
+    /* top, left | top, right | buttom, left | buttom, right */
+    top: 180px;
+    right: 50px;
+    
+}
+
+.position-absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+}

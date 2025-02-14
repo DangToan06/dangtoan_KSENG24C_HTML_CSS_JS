@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 650px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+h1{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.close-btn{
+    position: relative;
+    bottom: 35px;
+    left: 600px;
+    background-color: white;
+    border: none;
+    font-size: xx-large;
+}
+
+.hr-1{
+    position: relative;
+    bottom: 20px;
+}
+
+.hr-2{
+    position: relative;
+    top: 130px;
+}
+
+label{
+    font-size: large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+
+input{
+    width: 600px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    border-radius: 5px;
+    border: 1px solid #dfe3e7;
+}
+
+.text-2{
+    position: relative;
+    top: 80px;
+}
+
+textarea{
+    width: 600px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    left: 30px;
+    border-radius: 5px;
+    border: 1px solid #dfe3e7;
+}
+
+.button-1{
+    position: relative;
+    top: 155px;
+    left: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+}
+
+.button-2{
+    position: relative;
+    top: 155px;
+    left: 420px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+}
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Ex07.css">
+</head>
+<body>
+    <form action="w" method="post">
+        <h1>New messager to @mdo</h1>
+        <button class="close-btn">✖</button>
+        <hr class="hr-1">
+        <label for="recipient" class="text-1">Recipient:</label>
+        <br>
+        <input type="email" name="Recipient" id="recipient" class="boxtext-1" placeholder="@mdo">
+        <br>
+        <label for="messager" class="text-2">Messager:</label>
+        <br>
+        <textarea name="Messager" id="messager" class="boxtext-2"></textarea>
+        <hr class="hr-2">
+        <button class="button-1">Close</button>
+        <button class="button-2">Send messager</button>
+    </form>
+</body>
+</html>

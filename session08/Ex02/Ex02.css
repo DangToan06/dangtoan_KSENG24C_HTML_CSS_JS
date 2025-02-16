@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-1{
+    width: 496px;
+    height: 396px;
+    padding: 35px 20px 40px;
+    background-color: #524461;
+    color: #d5d1d8;
+}
+
+.box-2{ 
+    display: flex;
+}
+
+.box-2 div{
+    color: #d5d1d8;
+    margin-right: 20px;
+}
+
+.box-2 div .input-1{
+    box-sizing: border-box;
+    width: 215px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #524461;
+    border: 1px solid #756c81;
+    border-radius: 5px;
+}
+
+textarea{
+    margin-top: 10px;
+    padding-bottom: 100px;
+    padding-right: 270px;
+    background-color: #524461;
+    border: 1px solid #756c81;
+    border-radius: 5px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 20px 30px 20px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}

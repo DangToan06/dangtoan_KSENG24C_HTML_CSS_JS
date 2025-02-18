@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #020202;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e5e5e5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav div {
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+a {
+    color: #8d939e;
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px 10px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8d939e;
+    color: #e3e5e7;
+}
+
+.fas {
+    color: #e3e5e7;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #5c6067;
+}
+
+a:active{
+    color: #0d0e0e;
+}
+
+button:hover{
+    background-color: #36383b;
+}
+
+button:active{
+    background-color: #0d0e0e;
+}

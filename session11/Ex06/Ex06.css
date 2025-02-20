@@ -30,7 +30,7 @@
 }
 .content {
     background-color: #ebedf0;
-    padding: 100px;
+    padding: 150px 100px 150px;
     width: 100%;
 }
 .child-1 {
@@ -65,11 +65,7 @@
         flex-direction: column;
     }
 
-    .header {
-        width: 100%;
-    }
-
-    .content {
+    .header, .content {
         width: 100%;
     }
 

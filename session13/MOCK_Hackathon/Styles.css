@@ -1,0 +1,140 @@
+:root {
+    --bg-color: #0A0A0A;
+    --btn-color: #D3E97A;
+    --heading-color: #ffffff;
+    --text-color: #C7C7C7;
+    --primary-font: "Bebas Neue";
+    --secondary-font: "Manrope";
+    --bonder-radius: 12px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--secondary-font);
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+.head-page-1{
+    padding: 24px 60px;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.head-page-1 .logo{
+    font-family: var(--primary-font);
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.desktop-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.desktop-menu li{
+    list-style-type: none;
+}
+
+.body-page-1{
+    display: flex;
+    align-items: center;
+    padding: 30px 108px 80px;
+    gap: 80px;
+}
+
+.body-page-1 section .title{
+    font-size: 101px;
+    font-family: var(--primary-font);
+    line-height: 90.9px;
+    font-weight: 400;
+    color: var(--heading-color);
+    text-align:start ;
+}
+
+.link-page-1{
+    display: flex;
+    padding-top: 40px;
+    gap: 16px;
+}
+
+.link-in, .github{
+    width: 54px;
+    height: 54px;
+    background-color: #222222;
+    border: none;
+    border-radius: 50%;
+    gap: 12px;
+}
+
+.fab{
+    color: #D3E97A;
+}
+
+.btn-contact{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 100px;
+    width: 187px;
+    height: 54px;
+    align-items: center;
+    background-color: #D3E97A;
+}
+
+.btn-contact span:nth-child(1){
+    align-content: center;
+    padding: 5px;
+    padding-left: 24px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    color: var(--bg-color);
+    font-family: var(--secondary-font);
+    font-weight: bolder;
+}
+
+.btn-contact span:nth-child(2){
+    align-content: center;
+    font-size: xx-large;
+    padding-left: 12px;
+    position: relative;
+    bottom: 2.5px;
+    color: var(--bg-color);
+}
+
+@media screen and (max-width: 768px) {
+    .head-page-1 .desktop-menu{
+        display: none;
+    }
+    .head-page-1 .mobile-menu{
+        display: block;
+        background-color: var(--bg-color);
+        border: none;
+    }
+    .body-page-1{
+        flex-direction: column;
+        align-content: center;
+    }
+    .body-page-1 .section-1 {
+        
+    }
+}
+

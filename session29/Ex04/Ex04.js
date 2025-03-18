@@ -32,7 +32,7 @@ while (true) {
 
     switch (choice) {
         case 1:
-            let id = Math.floor(Math.random() * 1000); // Tạo ID ngẫu nhiên lớn hơn
+            let id = Math.floor(Math.random() * 1000);
             let name = prompt("Nhập tên công việc:");
             let detail = prompt("Nhập mô tả công việc:");
             let timeStart = prompt("Nhập thời gian bắt đầu:");

@@ -1,0 +1,28 @@
+button{
+    padding-right: 50px;
+    padding-bottom: 60px;
+}
+
+#btn-green{
+    background-color: green;
+}
+
+#btn-red{
+    background-color: red;
+}
+
+#btn-purple{
+    background-color: rgb(207, 96, 207);
+}
+
+.background-green{
+    background-color: green;
+}
+
+.background-red{
+    background-color: red;
+}
+
+.background-purple{
+    background-color: rgb(207, 96, 207);
+}

@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#yes{
+    display: none;
+    color: green;
+}
+
+#no{
+    display: none;
+    color: red;
+}

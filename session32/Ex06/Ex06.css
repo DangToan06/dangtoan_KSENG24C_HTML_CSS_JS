@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#btn-up{
+    border: none;
+    width: 70px;
+    height: 50px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 8px;
+    font-size: 30px;
+}
+
+#btn-down{
+    border: none;
+    width: 70px;
+    height: 50px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 8px;
+    font-size: 30px;
+}
+
+#btn-up:hover{
+    background-color: #6d9e78;
+}
+
+#btn-down:hover{
+    background-color: #b44d5e;
+}

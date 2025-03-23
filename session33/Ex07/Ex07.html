@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Ex07.css">
+</head>
+
+<body>
+    <section>
+        <h1 class="title">Cửa hàng đơn giản</h1>
+        <div class="container">
+            <div>
+                <h2 class="title-2">Sản phẩm</h2>
+                <div class="container-1">
+                    <div class="container-2">
+                        <div class="block">
+                            <img src="./assets/samsung-galaxy-a56-5g-green-thumb-600x600.jpg" alt="photo">
+                            <p class="name-product">Điện thoại Samsung Galaxy A54</p>
+                            <p class="price">7.490.000 ₫</p>
+                            <div class="button-add">
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <img src="./assets/Tai nghe AirPods Pro.jpg" alt="photo">
+                            <p class="name-product">Tai nghe AirPods Pro</p>
+                            <p class="price">4.990.000 ₫</p>
+                            <div class="button-add">
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <img src="./assets/Máy ảnh Canon EOS M50.jpg" alt="photo">
+                            <p class="name-product">Máy ảnh Canon EOS M50</p>
+                            <p class="price">12.490.000 ₫</p>
+                            <div class="button-add">
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <img src="./assets/chuột gamming.jpg" alt="photo">
+                            <p class="name-product">Chuột Gamming xịn xò con bò</p>
+                            <p class="price">2.490.000 ₫</p>
+                            <div class="button-add">
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-2">
+                        <div class="block">
+                            <img src="./assets/laptop-dell-vostro-3490-1-gia-loc.webp" alt="photo">
+                            <p class="name-product">Laptop Dell Inspiron 15</p>
+                            <p class="price">15.990.000 ₫</p>
+                            <div class="button-add">
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <img src="./assets/Đồng hồ thông minh Apple Watch.jpg" alt="photo">
+                            <p class="name-product">Đồng hồ thông minh Apple Watch</p>
+                            <p class="price">8.990.000 ₫</p>
+                            <div class="button-add">
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <img src="./assets/Loa Bluetooth JBL Flip 5.webp" alt="photo">
+                            <p class="name-product">Loa Bluetooth JBL Flip 5</p>
+                            <p class="price">2.190.000 ₫</p>
+                            <div class="button-add">
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <img src="./assets/Chuột không dây Logitech MX Master.webp" alt="photo">
+                            <p class="name-product">Chuột không dây Logitech MX Master</p>
+                            <p class="price">1.890.000 ₫</p>
+                            <div class="button-add">
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block-pay">
+                <h2 class="title-2"> Giỏ hàng</h2>
+                <ul id="pay">
+                    <li class="value" id="value">Giỏ hàng trông</li>
+                    <li>
+                        <div class="cart" style="display: none;">
+                            <div class="name-product-pay">
+                                <p class="name-product-detail">Chuột không dây Logitech MX Master</p>
+                                <p class="price-product">15.990.000₫ x 1</p>
+                            </div>
+                            <div class="quantity">
+                                <div class="button-choice">
+                                    <button class="down" id="down">-</button>
+                                    <span class="quantity-product">1</span>
+                                    <button id="up" class="up">+</button>
+                                    <button class="dele-all" id="dele-all">X</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <p class="total" id="total">Tổng: 0₫</p>
+                <div class="button-pay">
+                    <button class="btn-pay">Thanh toán</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./Ex07.js"></script>
+</body>
+
+</html>

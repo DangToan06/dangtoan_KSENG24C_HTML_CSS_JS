@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách nhân viên</title>
+    <link rel="stylesheet" href="./Ex05.css">
+</head>
+<body>
+    <h2>Danh sách nhân viên Rikkei</h2>
+    <div class="input-container">
+        <input type="text" id="name" placeholder="Tên nhân viên">
+        <input type="text" id="position" placeholder="Chức vụ">
+        <button id="add-btn">Thêm nhân viên</button>
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Tên</th>
+                <th>Chức vụ</th>
+            </tr>
+        </thead>
+        <tbody id="employee-list">
+            <tr>
+                <td>1</td>
+                <td>Nguyễn Văn A</td>
+                <td>Developer</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Trần Thị B</td>
+                <td>Designer</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Phạm Văn C</td>
+                <td>Project Manager</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="./Ex05.js"></script>
+</body>
+</html>

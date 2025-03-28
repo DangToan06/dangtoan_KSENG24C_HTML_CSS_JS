@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.color-buttons {
+    margin: 20px;
+}
+
+.color-btn {
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+}
+
+.color-btn[data-color="red"] {
+    background-color: red;
+}
+
+.color-btn[data-color="blue"] {
+    background-color: blue;
+}
+
+.color-btn[data-color="yellow"] {
+    background-color: gold;
+    color: black;
+}
+
+.color-btn[data-color="purple"] {
+    background-color: purple;
+}
